@@ -25,3 +25,23 @@ André: Boné azul/ camisa do cruzeiro
 Robson: Amarelo / camisa do Brasil
 Victor: Preto/ camisa do santos
 Antonio: verde/ guarani 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+inicio
+  mostrar("informe a primeria nota")
+  ler(nota1)
+  mostrar("informe a segunda nota")
+  ler(nota2)
+ 
+  media = (nota1 + nota2) / 2
+ 
+  se (media >= 5) entao
+    se (media > 7) entao
+        mostrar("aluno aprovado!")
+   senao re
+
+    mostrar ("aluno em recuperação")
+  mostrar("aluno reaprovado!")
+fim
