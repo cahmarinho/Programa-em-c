@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+
+  float salario, valerefeicao, valor, total_vale, salario_total, valor_hora,
+      hora_trab = 0;
+
+  printf("\ninforme o salario: ");
+  scanf("%f", &salario);
+
+  printf("\ninforme valerefeicao: ");
+  scanf("%f", &valerefeicao);
+
+  salario_total = salario + (salario * 0.05);
+  total_vale = valerefeicao * 20;
+  valor = total_vale + salario_total;
+
+  printf("\nvalor total: %.2f", valor);
+
+  hora_trab = 120;
+  valor_hora = valor / hora_trab;
+
+  printf("\n \nvalor da hora trabalhada: %.2f", valor_hora);
+
+  return 0;
+}
